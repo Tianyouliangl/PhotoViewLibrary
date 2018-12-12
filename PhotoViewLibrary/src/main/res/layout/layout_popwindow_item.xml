@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:layout_height="60dp">
+
+    <TextView
+        android:id="@+id/tv_save"
+        android:text="@string/save"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+    <View
+        android:background="#f0f0f0"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"></View>
+    <TextView
+        android:id="@+id/tv_cancel"
+        android:text="@string/cancel"
+        android:textSize="18sp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+</LinearLayout>
